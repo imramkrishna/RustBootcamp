@@ -6,5 +6,4 @@ pub fn sum_signed_integer(a: i32, b: i32) -> i32 {
 pub fn sum_unsigned_integer(a: u32, b: u32) -> u32 {
     a + b
 }
-//
 

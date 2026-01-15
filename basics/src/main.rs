@@ -1,7 +1,7 @@
 mod integer;
 mod maths;
 mod floats;
-use maths::*;
+use maths::*; //  This * import signifies all the fns to be imported can be used directly wihout using the namespace infront of it
 
 fn check_integer_module(){
     println!("The sum of Signed Integers is {}",integer::sum_signed_integer(-5, 7));
