@@ -24,7 +24,7 @@ fn main() {
     println!("Here is the execution of Trait File : ");
     traits::print_trait();
     println!("Here is the execution of Lifetime File : ");
-    // lifetime::print_lifetime();
+    lifetime::print_lifetime();
     struct_lifetime::print_struct_lifetime();
 }
 
